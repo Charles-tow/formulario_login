@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,600&family=Share+Tech+Mono&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+    <script src="./script.js" defer></script>
+    <title>Formulário</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h2>Criar nova conta</h2>
+      </div>
+
+      <form id="form" class="form">
+        <div class="form-content">
+          <label for="username"> Nome </label>
+          <input type="text" id="username" placeholder="Digite seu nome" />
+          <a> link para a mensagem de erro...</a>
+        </div>
+
+        <div class="form-content">
+          <label for="email"> Email </label>
+          <input type="email" id="email" placeholder="Digite seu email" />
+          <a> link para a mensagem de erro...</a>
+        </div>
+
+        <div class="form-content">
+          <label for="password"> Senha </label>
+          <input type="password" id="password" placeholder="Digite sua senha" />
+          <a> link para a mensagem de erro...</a>
+        </div>
+
+        <div class="form-content">
+          <label for="password-confirmation"> Senha </label>
+          <input
+            type="password"
+            id="password-confirmation"
+            placeholder="Repita sua senha"
+          />
+          <a> link para a mensagem de erro...</a>
+        </div>
+        <div class="btn">
+          <button type="submit">Cadastrar</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
